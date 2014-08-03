@@ -14,7 +14,8 @@
     bottom: 0;
     left: 0;
     background: #45B2F1;  
-    text-align: center 
+    text-align: center;
+    z-index: 100;
 }
 
 .spinner {
@@ -26,7 +27,7 @@
 }
 
     .spinner > span {
-      background-color: #333;
+      background-color: #fff;
       height: 100%;
       width: 6px;
       display: inline-block;
