@@ -225,6 +225,7 @@
             function checkLoad() {
                 if (video.readyState === 4) {
                     preloader.parentNode.removeChild(preloader);
+                    console.log("ready");
                 } else {
                     setTimeout(checkLoad, 100);
                 }
